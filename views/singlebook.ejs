@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<% include partials/head.ejs %>
+  	</head>
+  	<body>
+		<header class="headersingle" style="background: url('/images/<%= book.poster %>') 0 0 repeat;">
+      <!--<img src="/images/<%= book.poster %>">-->
+      <div class="navig">
+        <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="/">Домашня</a>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товари <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <% for(var i = 0; i < books.length; i++) { %>
+                    <li><a href="/products/<%= i+1 %>" class="episode_link"><%= books[i].title %></a></li>
+              <% } %>
+                  </ul>
+              </li>
+            </ul>
+      </div>
+      <div class="headertitlesingle">
+        Зустрічайте новинку
+      </div>
+    </header>
+      <section>
+
+        <div>
+          <img src="/images/<%= book.image %>">
+        </div>
+
+        <div>
+          <p class="booktitle"><%= book.title %></p>
+          <p><%= book.description %></p>
+        </div>
+
+      </section>
+      <div class="passing">
+        <a href="<%= book.link %>" target="_blank">Купити товар</a>
+      </div>
+    <footer>
+      <div>&reg;</div>
+      <div>ВГ "Основа", 2016</div>
+    </footer>
+
+	     <% include partials/script.ejs %>
+  	</body>
+</html>

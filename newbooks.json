@@ -1,0 +1,62 @@
+{
+  "books": [{
+    "title" : "Українська мова. 7 клас",
+    "disk_code" : "ЕКУ362",
+    "origin_authors" : ["Є.П. Голобородько", "К.Ю. Голобородько", "О.А. Павлик", "С.В. Мунтян", "І.А. Бондаренко"],
+    "description" : "Електронний конструктор уроку. Українська мова. 7 клас. Версія 3.0. Методичний комп’ютерний посібник. 86 конспектів усіх уроків до курсу «Українська мова. 7 клас» у форматі doc (Microsoft Word). 86 медіа-презентацій до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 1218 ілюстрації до курсу. Бонуси: Календарне планування",
+    "poster" : "img_poster/UkrMova7.jpg",
+    "image" : "img_cover/Ukr.mova7_EKU362.jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_ukranska_mova_7_klas/"
+  },
+
+  {
+    "title" : "Хімія. 7 клас",
+    "disk_code" : "ЕКУ366",
+    "origin_authors" : ["В.Д. Ковальова"],
+    "description" : "Електронний конструктор уроку. Хімія. 7 клас. Версія 3.0. Методичний комп’ютерний посібник. 47 конспектів усіх уроків до курсу «Хімія. 7 клас» у форматі doc (Microsoft Word). 47 медіа-презентацій до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 737 ілюстрацій до курсу. Бонуси: Календарне планування, корисні посилання, додатки",
+    "poster" : "img_poster/Himia7.jpg",
+    "image" : "img_cover/Chemistry7_EKU366.jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_khmya_7_klas/"
+  },
+
+  {
+    "title" : "Основи здоров’я. 4 клас (за підр. І.Д. Беха, Т.В. Воронцової, В.С. Пономаренка)",
+    "disk_code" : "ЕКУ368",
+    "origin_authors" : ["Володарська М.О."],
+    "description" : "Електронний конструктор уроку. Основи здоров’я. 4 клас (за підр. І. Д. Беха, Т. В. Воронцової, В. С. Пономаренка). Версія 3.0. Методичний комп’ютерний посібник. 31 конспект усіх уроків до курсу «Основи здоров’я. 4 клас» у форматі doc (Microsoft Word). 31 медіа-презентація до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 637 ілюстрацій до курсу",
+    "poster" : "img_poster/OZ4.jpg",
+    "image" : "img_cover/Osnovi zdorov-4kl (Bex-Voronzova ta in).jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_osnovi_zdorovya_4_klas_za_pdr__d_bekha_t_v_vorontsovo_v_s_ponomarenka_s_v_strashka/"
+  },
+
+  {
+    "title" : "Природознавство. 4 клас (за підручником І.В. Грущинської)",
+    "disk_code" : "ЕКУ367",
+    "origin_authors" : ["Володарська М.О."],
+    "description" : "Електронний конструктор уроку. Природознавство. 4 клас (за підручником І. В. Грущинської). Версія 3.0. Методичний комп’ютерний посібник. 62 конспекти усіх уроків до курсу «Природознавство. 4 клас » у форматі doc (Microsoft Word). 62 медіа-презентації до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 283 ілюстрації до курсу",
+    "poster" : "img_poster/Prirodoznavstvo4.jpg",
+    "image" : "img_cover/Prirodoznavstvo_4kl (Grushcinskay).jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_prirodoznavstvo_4_klas_za_pdrutchnikom__v_grutshinsko/"
+  },
+
+  {
+    "title" : "Трудове навчання. 4 клас (за підручником І. М. Веремійчика, В. П. Тименка)",
+    "disk_code" : "ЕКУ377",
+    "origin_authors" : ["Толмачова М.В."],
+    "description" : "Електронний конструктор уроку. Трудове навчання. 4 клас (за підручником І. М. Веремійчика, В. П. Тименка). Версія 3.0. Методичний комп’ютерний посібник. 35 конспектів усіх уроків до курсу «Трудове навчання. 4 клас» у форматі doc (Microsoft Word). 35 медіа-презентацій до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 607 ілюстрацій до курсу",
+    "poster" : "img_poster/Trud4.jpg",
+    "image" : "img_cover/Trud-4kl (Veremichik-Timenko).jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_trudove_navtchannya_4_klas_za_pdrutchnikom__m_veremjtchika_v_p_timenka/"
+  },
+
+  {
+    "title" : "Фізика. 7 клас",
+    "disk_code" : "ЕКУ357",
+    "origin_authors" : ["Антикуз О.В."],
+    "description" : "Електронний конструктор уроку. Фізика. 7 клас. Версія 3.0. Методичний комп’ютерний посібник. 68 конспектів усіх уроків до курсу «Фізика. 7 клас» у форматі doc (Microsoft Word). 67 медіа-презентацій до усіх уроків у форматі ppt (Microsoft PowerPoint). 115 прийомів роботи на уроці, які урізноманітнюють зміст вашого уроку. 1177 ілюстрацій до курсу. Бонуси: Календарне планування",
+    "poster" : "img_poster/Phisics7.jpg",
+    "image" : "img_cover/Phisics7_EKU357.jpg",
+    "link" : "http://e-kniga.in.ua/product/elektronnij_konstruktor_uroku_fzika_7_klas/"
+  }]
+
+}
