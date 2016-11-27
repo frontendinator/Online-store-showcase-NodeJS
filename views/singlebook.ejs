@@ -5,7 +5,7 @@
   	</head>
   	<body>
 		<header class="headersingle" style="background: url('/images/<%= book.poster %>') 0 0 repeat;">
-      <!--<img src="/images/<%= book.poster %>">-->
+    <div class="wrapnavig">
       <div class="navig">
         <ul class="nav navbar-nav navbar-right">
               <li>
@@ -20,6 +20,7 @@
                   </ul>
               </li>
             </ul>
+        </div>
       </div>
       <div class="headertitlesingle">
         Зустрічайте новинку
@@ -38,13 +39,10 @@
 
       </section>
       <div class="passing">
-        <a href="<%= book.link %>" target="_blank">Купити товар</a>
+        <a href="<%= book.link %>" target="_blank">Купити цей товар</a>
       </div>
-    <footer>
-      <div>&reg;</div>
-      <div>ВГ "Основа", 2016</div>
-    </footer>
+      <% include partials/footer.ejs %>
 
-	     <% include partials/script.ejs %>
+	    <% include partials/script.ejs %>
   	</body>
 </html>

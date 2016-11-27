@@ -73,11 +73,18 @@ body {
 	background-color: #f44336;
 	color: white;
     font-family: 'Lobster', cursive;
-    font-size: 39px;
+    font-size: 33px;
 	letter-spacing: 2px;
 	display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapnavig {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .navig {
@@ -87,7 +94,6 @@ body {
 	padding: 2px 15px;
 	font-size: 16px;
 	font-weight: 600;
-	border-bottom-right-radius: 11px;
     border-bottom-left-radius: 11px;
 }
 
@@ -176,8 +182,8 @@ section div:nth-child(2) {
 .passing a {
 	font-size: 19px;
 	font-style: italic;
-	color: #607D8B;
-    text-shadow: red 1px 1px;
+	color: #2d1b19;
+    text-shadow: #8BC34A 1px 1px;
 }
 
 footer {

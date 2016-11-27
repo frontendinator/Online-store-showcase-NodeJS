@@ -3,7 +3,7 @@ var newbooks = require('../newbooks.json');
 exports.home = function(req, res) {
 	var books = newbooks.books;
 	res.render('home', {
-		title: "New products",
+		title: "Новинки",
 		books: books
 	});
 };

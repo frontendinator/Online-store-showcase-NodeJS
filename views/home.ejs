@@ -5,21 +5,23 @@
   	</head>
   	<body>
 		<header class="header">
-			<div class="navig">
-				<ul class="nav navbar-nav navbar-right">
-        			<li>
-        				<a href="/">Домашня</a>
-        			</li>
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товари <span class="caret"></span></a>
-          				<ul class="dropdown-menu">
-          					<% for(var i = 0; i < books.length; i++) { %>
-            				<li><a href="/products/<%= i+1 %>" class="episode_link"><%= books[i].title %></a></li>
-							<% } %>
-          				</ul>
-        			</li>
-      			</ul>
-			</div>
+      <div class="wrapnavig">
+  			<div class="navig">
+  				<ul class="nav navbar-nav navbar-right">
+          			<li>
+          				<a href="/">Домашня</a>
+          			</li>
+          			<li class="dropdown">
+            				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товари <span class="caret"></span></a>
+            				<ul class="dropdown-menu">
+            					<% for(var i = 0; i < books.length; i++) { %>
+              				<li><a href="/products/<%= i+1 %>" class="episode_link"><%= books[i].title %></a></li>
+  							<% } %>
+            				</ul>
+          			</li>
+        			</ul>
+  			</div>
+      </div>
 			<div class="headertitle">
 				Новинки
 			</div>
@@ -27,7 +29,7 @@
 		<div class="maincontent">
 		    <% for (var i = 0; i < books.length; i++) { %>
         <div class="mainitem">
-		      <img src="/images/<%= books[i].image %>" class="wrapper">
+		      <a href="/products/<%= i+1 %>"><img src="/images/<%= books[i].image %>" class="wrapper"></a>
           <div class="imageoverlay">
             <h4><%= books[i].title %></h4>
             <h5><a href="/products/<%= i+1 %>">Додаткова інформація  </a><i class="fa fa-arrow-right"></i></h5>
@@ -35,10 +37,8 @@
         </div>
 		    <% } %>
 		</div>
-    <footer>
-      <div>&reg;</div>
-      <div>ВГ "Основа", 2016</div>
-    </footer>
-	     <% include partials/script.ejs %>
+      <% include partials/footer.ejs %>
+   
+	    <% include partials/script.ejs %>
   	</body>
 </html>
